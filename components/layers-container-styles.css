@@ -1,0 +1,21 @@
+.SVG-Container {
+    height: 440px;
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* relative parent for stacking */
+.SVG-Layer-Stack {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SVG-Layer {
+    position: absolute;
+}
