@@ -18,4 +18,9 @@
 
 .SVG-Layer {
     position: absolute;
+    pointer-events: none; /* Let clicks pass through the SVG container */
+}
+
+.SVG-Layer svg * {
+    pointer-events: auto; /* Re-enable clicks on actual SVG shapes */
 }
