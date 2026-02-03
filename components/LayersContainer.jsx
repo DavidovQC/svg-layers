@@ -9,6 +9,9 @@ function LayersContainer() {
 
         const clickedSVG = e.target.closest("svg");
         console.log(clickedSVG);
+
+        const clickedDiv = e.target.closest("div");
+        console.log(clickedDiv);
     };
 
     return (
